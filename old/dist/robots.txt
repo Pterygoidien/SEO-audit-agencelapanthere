@@ -1,0 +1,9 @@
+User-agent: Googlebot
+User-agent: AdsBot-Googlebot
+Disallow: /img/
+
+User-agent: *
+Allow: /
+
+
+sitemap: http://localhost:5500/sitemap.xml
