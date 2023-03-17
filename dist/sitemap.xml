@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:5500/index.html</loc>
+    <loc>https://www.agencelapanthere.ovh/</loc>
+    <lastmod>2023-03-17T02:15:01+00:00</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:5500/contact.html</loc>
+    <loc>https://www.agencelapanthere.ovh/contact.html</loc>
+    <lastmod>2023-03-17T02:15:01+00:00</lastmod>
+    <priority>1.0</priority>
   </url>
  
 </urlset>
