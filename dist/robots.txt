@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 
-sitemap: http://localhost:5500/sitemap.xml
+sitemap: https://www.agencelapanthere.ovh/sitemap.xml
