@@ -2,47 +2,15 @@
 <html lang="fr-FR">
 
 <head>
-	<!-- Google Tag Manager -->
-	<script>
-		(function (w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({
-				"gtm.start": new Date().getTime(),
-				event: "gtm.js",
-			});
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != "dataLayer" ? "&l=" + l : "";
-			j.async = true;
-			j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, "script", "dataLayer", "GTM-K7KXNTF");
-	</script>
-	<!-- End Google Tag Manager -->
-
-	<title>
-		Agence française de webdesign & création de site webs | La
-		Panthère
-	</title>
-
-	<meta charset="utf-8">
+	<meta charset="utf-8" lang="fr-FR">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta name="description"
-		content="La Panthère est une agence de webdesign, graphisme marketing et de création de siteweb basée sur Lyon. Nous nous addressons aussi bien aux particuliers qu'aux entreprises, et guidons la création de site web de A à Z sur mesure, avec l'orientation de nos équipes en stratégie marketing et d'illustrateurs. ">
-
-	<!--Social media descriptors-->
-	<meta property="og:description"
-		content="La Panthère est une agence de webdesign, graphisme marketing et de création de siteweb basée sur Lyon. Nous nous addressons aussi bien aux particuliers qu'aux entreprises, et guidons la création de site web de A à Z sur mesure, avec l'orientation de nos équipes en stratégie marketing et d'illustrateurs.">
-	<meta property="og:title" content="La panthère, agence de webdesign et de création de site webs">
-	<meta property="og:url" content="https://www.agencelapanthere.ovh/">
-
 	<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 	<link rel="canonical" href="https://www.agencelapanthere.ovh/">
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
 		@font-face {
 			font-family: 'FontAwesome-swap';
@@ -66,9 +34,50 @@
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
 
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				"gtm.start": new Date().getTime(),
+				event: "gtm.js",
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != "dataLayer" ? "&l=" + l : "";
+			j.async = true;
+			j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, "script", "dataLayer", "GTM-K7KXNTF");
+	</script>
+	<!-- End Google Tag Manager -->
 
+	<title>
+		Agence française de webdesign & création de site webs | La
+		Panthère
+	</title>
 
+	<meta name="description"
+		content="La Panthère est une agence de webdesign, graphisme marketing et de création de siteweb basée sur Lyon. Nous nous addressons aussi bien aux particuliers qu'aux entreprises, et guidons la création de site web de A à Z sur mesure, avec l'orientation de nos équipes en stratégie marketing et d'illustrateurs. ">
 
+	<!--START Social media descriptors-->
+	<meta property="og:description"
+		content="La Panthère est une agence de webdesign, graphisme marketing et de création de siteweb basée sur Lyon. Nous nous addressons aussi bien aux particuliers qu'aux entreprises, et guidons la création de site web de A à Z sur mesure, avec l'orientation de nos équipes en stratégie marketing et d'illustrateurs.">
+	<meta property="og:title" content="La panthère, agence de webdesign et de création de site webs">
+	<meta property="og:url" content="https://www.agencelapanthere.ovh/">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://www.agencelapanthere.ovh/img/WebP/image-de-presentation.webp">
+	<meta property="og:site_name" content="Agence La Panthère, création de site webs & design marketing">
+	<!--Open graph END--><!--Twitter cards-->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@AgenceLaPanthère">
+	<meta name="twitter:description"
+		content="Besoin d'une expertise web ? Prenez contact avec La Panthère, spécialiste en création de site web pour professionnels et marketing digital à Lyon">
+	<meta name="twitter:title" content="La Panthère, agence lyonnaise de création de site web professionnels">
+	<meta name="twitter:image" content="https://www.agencelapanthere.ovh/img/WebP/image-de-presentation.webp">
+	<meta name="twitter:image:alt" content="Image du logo de La Panthère">
+	<!--END Social media descriptors-->
 </head>
 
 <body>
@@ -80,7 +89,7 @@
 	<!-- Principal conteneur -->
 	<div class="page-container">
 		<!-- bloc 0.1 new header-->
-		<header class="navbar navbar-expand-lg navbar-light bgc-white">
+		<header class="navbar navbar-expand-lg navbar-light bgc-white sticky-top border-bottom">
 			<div class="container py-2">
 				<a class="navbar-brand" href="index.html">
 					<img src="img/agence-la-panthere-monochrome.svg" alt="(logo) La Panthère, agence de design"
@@ -93,20 +102,18 @@
 				</button>
 				<nav class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav ms-auto">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Accueil
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Accueil</a></li>
-								<li><a class="dropdown-item" href="#Services">Services</a></li>
-								<li><a class="dropdown-item" href="#Objectifs">Objectifs</a></li>
-								<li>
-									<hr class="dropdown-divider">
-								</li>
-								<li><a class="dropdown-item" href="#Portfolio">Portfolio</a></li>
-							</ul>
+
+						<li class="nav-item">
+							<a class="nav-link" href="./" id="#active">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Objectifs">Objectifs</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Portfolio">Portfolio</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="./contact.html">Contact</a>
@@ -364,6 +371,7 @@
 
 					</div>
 				</div>
+
 			</div>
 		</footer>
 		<!-- Footer - bloc-8 END -->

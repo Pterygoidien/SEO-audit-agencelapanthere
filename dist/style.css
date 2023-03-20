@@ -1104,3 +1104,29 @@ h4 {
 .tc-orange {
   color: #ff9462 !important;
 }
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  bottom: 15%;
+  margin: 0 auto;
+  left: 10%;
+  background-color: #F3976C;
+}
+
+.nav-link #active::after {
+  width: 80%;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+  width: 80%;
+  transition: width 0.3s ease-in-out;
+}
