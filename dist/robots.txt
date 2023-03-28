@@ -1,3 +1,4 @@
 User-agent: Googlebot
 Allow: /
+Disallow: /error.html
 Sitemap: https://www.agencelapanthere.ovh/sitemap.xml
