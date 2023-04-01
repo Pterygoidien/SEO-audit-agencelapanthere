@@ -1,3 +1,4 @@
 # project_4
 
-https://www.agencelapanthere.ovh/
+NEW (optimized): https://www.agencelapanthere.ovh/
+OLD : https://pterygoidien.github.io/project_4/old/dist/
