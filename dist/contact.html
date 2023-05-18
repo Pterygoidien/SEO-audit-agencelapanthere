@@ -159,10 +159,13 @@
             </article>
 
             <article class="col-md-6">
-              <h3 class="pb-2">Formulaire de contact</h3>
+
               <form id="form_1" novalidate success-msg="Votre message n'a pas été envoyé" role="form"
                 fail-msg="Il semble que notre serveur mail soit injoignable, veuillez nous en excuser" method="post">
                 <fieldset class="d-flex flex-column gap-4">
+                  <legend>
+                    <h3 class="pb-2">Formulaire de contact</h3>
+                  </legend>
                   <div class="form-group">
                     <label for="name">Nom <sup>*</sup></label>
                     <input id="name" aria-labelledby="name" name="user_name" class="form-control" type="text"
@@ -174,13 +177,12 @@
                       placeholder="votre-email@gmail.com" required>
                   </div>
                   <div class="form-group">
-                    <label for="select-list">Comment nous avez-vous connu ?<sup>*</sup></label>
+                    <label for="select-list">Comment avez-vous entendu parler de notre agence?<sup>*</sup></label>
                     <select class="form-control" id="select-list" aria-labelledby="select-list">
-                      <option value="" selected>Choississez une option</option>
-                      <option value="recherche internet" role="option">Recherche internet</option>
-                      <option value="reseaux sociaux" role="option">Réseaux sociaux</option>
-                      <option value="appel d'offre" role="option">Appel d'offre</option>
-                      <option value="bouche à oreille" role="option">Bouche à oreille</option>
+                      <option value="" selected></option>
+                      <option value="internet" role="option">Via Internet</option>
+                      <option value="social" role="option">Via les réseaux sociaux</option>
+                      <option value="inears" role="option">D'une connaissance</option>
                     </select>
                   </div>
                   <div class="form-group">
