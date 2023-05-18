@@ -1028,6 +1028,7 @@ h4 {
   .bloc-tile-2 .container,
   .bloc-tile-3 .container,
   .bloc-tile-4 .container,
+  .bloc-tile-2 .container-fluid,
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding-left: 0;
